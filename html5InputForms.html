@@ -88,6 +88,16 @@
                   phoneError.textContent = ""; 
               else phoneError.textContent = "Phone is incorrect"; 
           });
+
+          const password = document.querySelector('#pwd');
+            const passwordError = document.querySelector('.password-error'); 
+            password.addEventListener('input', function() {
+                    console.log(password.value)
+                    let passwordRegex = RegExp("[a-zA-Z]{8,}");
+                    if (passwordRegex.test(password.value)) 
+                        passwordError.textContent = ""; 
+                    else passwordError.textContent = "Email is incorrect"; 
+                });
      </script> 
   </body>
 </html>
