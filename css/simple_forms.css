@@ -4,8 +4,7 @@ max-width: 600px;
 margin: 0px auto;
 padding: 2em;
 }
-
-html,input{
+html,inp{
   font-family: sans-serif;
 }
 
@@ -23,7 +22,7 @@ form{
   margin-top: 50px;
 }
 
-div {
+div{
   margin-bottom: 20px;
   display: flex;
   justify-content: space-between;
@@ -35,20 +34,20 @@ label,button,input{
   line-height: 1.5;
 }
 
-label {
+label{
   text-align: right;
   width: 30%;
   margin-right: 2%;
 }
 
-input {
+input{
   flex: auto;
 }
 
-button {
+button{
   width: 70%;
   margin: 0 auto;
-}   
+}
 
 error-output{
   font-size: 12px;
